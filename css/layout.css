@@ -9,6 +9,11 @@
   -moz-box-sizing: border-box;
 }
 
+.clearfix {
+    clear: both; 
+    margin-bottom: 2%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -40,5 +45,5 @@ class[*=col-] {
 }
 
 .first {
-    margin-left: 0px;
+    margin-left: 0;
 }
