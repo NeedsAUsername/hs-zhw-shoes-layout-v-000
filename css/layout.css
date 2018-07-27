@@ -36,6 +36,7 @@
 
 class[*=col-] {
     margin-left: 1px;
+    position: relative;
 }
 
 .first {
