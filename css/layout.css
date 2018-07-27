@@ -10,7 +10,7 @@
 }
 
 .clearfix {
-    clear: both; 
+    clear: both;
     margin-bottom: 2%;
 }
 
@@ -32,17 +32,15 @@
 .col-1 {
     float: left;
     width: 25%;
+    margin-left: 2%;
 }
 
 .col-2 {
     float: left;
     width: 66%;
+    margin-left: 2%;
 }
 
-class[*=col-] {
-    margin-left: 2%;
-    position: relative;
-}
 
 .first {
     margin-left: 0;
